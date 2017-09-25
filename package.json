@@ -1,8 +1,8 @@
 {
   "name": "vlf",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "vue-localforage",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,5 +13,16 @@
   "license": "ISC",
   "devDependencies": {
     "localforage": "^1.5.0"
-  }
+  },
+  "dependencies": {
+    "localforage": "^1.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmlzj/vlf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dmlzj/vlf/issues"
+  },
+  "homepage": "https://github.com/dmlzj/vlf#readme"
 }
