@@ -11,7 +11,7 @@ Vue.use(Vlf)
 ```
 # 方法参数:
 ```javascript
-this.$vlf.creageInstance({
+this.$vlf.createInstance({
     storeName: 'user'
 }).then((store) => {
     store.setItem('key', [])
