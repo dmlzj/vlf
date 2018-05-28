@@ -75,12 +75,11 @@ const vlf = {
                             resolve(result)
                         }).catch((err) => {
                             // This code runs if there were any errors
-                            console.log(err);
                             reject(err)
                         })
                     })
                 },
-                setDriver (drivreName) {
+                setDriver (driverName) {
                     return new Promise((resolve, reject) => {
                         resolve(localForage.setDriver(driverName))
                     })
