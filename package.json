@@ -1,6 +1,6 @@
 {
   "name": "vlf",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "vue-localforage",
   "main": "index.js",
   "scripts": {

@@ -2,7 +2,7 @@
 vue-localforage 
 # 安装
 ```bash
-npm install  --save-dev vlf
+npm install  --save vlf
 ```
 # 引入即可
 ```javascript
