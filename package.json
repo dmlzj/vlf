@@ -1,10 +1,11 @@
 {
   "name": "vlf",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "vue-localforage",
-  "main": "index.js",
+  "main": "dist/vlf.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
   },
   "keywords": [
     "vue-localforage"
@@ -12,10 +13,11 @@
   "author": "dmlzj",
   "license": "ISC",
   "devDependencies": {
-    "localforage": "^1.5.0"
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "localforage": "^1.5.0"
+    "localforage": "^1.7.3"
   },
   "repository": {
     "type": "git",
