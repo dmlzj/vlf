@@ -9,32 +9,43 @@
  * @如果有bug，那肯定不是我的锅，嘤嘤嘤
  -->
 # vlf
-vue-localforage 
-# Install
+vue-localforage and support typescript
+
+- [localforage repository](https://github.com/localForage/localForage)
+- [localforage documentation](https://localforage.github.io/localForage/)
+
+## Install
+
 ```bash
 npm install  --save localforage vlf
 ```
-# How to use vlf
+
+## How to use vlf
+
 ```javascript
 import Vlf from 'vlf'
 import localforage from 'localforage'
 Vue.use(Vlf, localforage)
 ```
-# In your code
+
+## In your code
+
 ```javascript
+// 创建实例
 this.$vlf.createInstance({
     storeName: 'user'
-}).then((store) => {
-    store.setItem('key', [])
-    store.length().then((keys) => {
-        console.log(keys)
-    })
-    store.iterate((value, key, num) => {
-        return [key, value]
-    }).then((result) => {
-        console.log(result)
-    })
 })
+// 迭代
+this.$vlf.iterate((value, key, num) => {
+       console.log(key);
+   });
+// 设置值
+this.$vlf.setItem('test', 'hello').then(v => {
+    console.log(v);
+});
+
+// ...和官方调用一致
+// The other methods of use are the same as the official website, just add a this.$vlf in front, the same behind!
+
 ```
 ---
-The other methods of use are the same as the official website, just add a this.$vlf in front, the same behind!
