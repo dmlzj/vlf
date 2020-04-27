@@ -1,30 +1,31 @@
 {
-  "name": "vlf",
-  "version": "1.0.7",
-  "description": "vue-localforage",
-  "main": "dist/vlf.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config webpack.config.js"
-  },
-  "keywords": [
-    "vue-localforage"
-  ],
-  "author": "dmlzj",
-  "license": "ISC",
-  "devDependencies": {
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
-  },
-  "dependencies": {
-    "localforage": "^1.7.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dmlzj/vlf.git"
-  },
-  "bugs": {
-    "url": "https://github.com/dmlzj/vlf/issues"
-  },
-  "homepage": "https://github.com/dmlzj/vlf#readme"
+    "name": "vlf",
+    "version": "1.0.8-beta2",
+    "description": "vue-localforage",
+    "main": "dist/vlf.js",
+    "types": "src/index.d.ts",
+    "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1",
+	"build": "webpack --config webpack.config.js"
+    },
+    "typing": "src/index.d.ts",
+    "keywords": [
+	"vue-localforage"
+    ],
+    "author": "dmlzj",
+    "license": "ISC",
+    "devDependencies": {
+	"webpack": "^4.41.5",
+	"webpack-cli": "^3.3.10"
+    },
+    "dependencies": {
+    },
+    "repository": {
+	"type": "git",
+	"url": "git+https://github.com/dmlzj/vlf.git"
+    },
+    "bugs": {
+	"url": "https://github.com/dmlzj/vlf/issues"
+    },
+    "homepage": "https://github.com/dmlzj/vlf#readme"
 }

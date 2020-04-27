@@ -12,12 +12,13 @@
 vue-localforage 
 # Install
 ```bash
-npm install  --save vlf
+npm install  --save localforage vlf
 ```
 # How to use vlf
 ```javascript
 import Vlf from 'vlf'
-Vue.use(Vlf)
+import localforage from 'localforage'
+Vue.use(Vlf, localforage)
 ```
 # In your code
 ```javascript
