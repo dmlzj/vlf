@@ -37,8 +37,8 @@ this.$vlf.createInstance({
 })
 // 迭代
 this.$vlf.iterate((value, key, num) => {
-       console.log(key);
-   });
+    console.log(key);
+});
 // 设置值
 this.$vlf.setItem('test', 'hello').then(v => {
     console.log(v);
