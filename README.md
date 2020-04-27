@@ -9,7 +9,12 @@
  * @如果有bug，那肯定不是我的锅，嘤嘤嘤
  -->
 # vlf
+
 vue-localforage and support typescript
+
+> localForage is a fast and simple storage library for JavaScript. localForage improves the offline experience of your web app by using asynchronous storage (IndexedDB or WebSQL) with a simple, `localStorage`-like API.
+
+> localForage uses localStorage in browsers with no IndexedDB or WebSQL support. See [the wiki for detailed compatibility info][supported browsers].
 
 - [localforage repository](https://github.com/localForage/localForage)
 - [localforage documentation](https://localforage.github.io/localForage/)
